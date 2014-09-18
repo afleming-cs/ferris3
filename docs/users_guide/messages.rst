@@ -109,7 +109,7 @@ Messages can't inherit from other messages, but you can use the :func:`~protopig
         year = IntegerField(1)
         location = StringField(2)
 
-    class Traveler(Message):
+    class Destination(Message):
         name = StringField(1)
         species = StringField(1)
 
